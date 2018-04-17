@@ -55,8 +55,8 @@ tea_crypt(self, input, output, decrypt)
             output = sv_newmortal();
         outlen = 8;
 
-        if (SvREADONLY(output) || !SvUPGRADE(output, SVt_PV))
-            croak("cannot use output as lvalue");
+        if (SvREADONLY(output))
+            SvUPGRADE(output, SVt_PV);
 
         tea_crypt(self,
                   (unsigned char *)input,
