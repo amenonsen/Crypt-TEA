@@ -131,4 +131,5 @@ Abhijit Menon-Sen <ams@toroid.org>
 
 Copyright 2001 Abhijit Menon-Sen. All rights reserved.
 
-This software is distributed under the terms of the Artistic License.
+This software is distributed under the terms of the Artistic License
+<URL:http://ams.wiw.org/code/artistic.txt>.
