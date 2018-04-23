@@ -1,5 +1,4 @@
-# $Id: TEA.pm,v 1.25 2001/05/21 17:32:59 ams Exp $
-# Copyright 2001 Abhijit Menon-Sen <ams@wiw.org>
+# Copyright 2001 Abhijit Menon-Sen <ams@toroid.org>
 
 package Crypt::TEA;
 
@@ -128,9 +127,8 @@ platforms, and suggesting that I probe for features via %Config.
 
 =head1 AUTHOR
 
-Abhijit Menon-Sen <ams@wiw.org>
+Abhijit Menon-Sen <ams@toroid.org>
 
 Copyright 2001 Abhijit Menon-Sen. All rights reserved.
 
-This software is distributed under the terms of the Artistic License
-<URL:http://ams.wiw.org/code/artistic.txt>.
+This software is distributed under the terms of the Artistic License.
